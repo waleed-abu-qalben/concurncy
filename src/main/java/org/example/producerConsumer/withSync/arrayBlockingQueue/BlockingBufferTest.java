@@ -1,8 +1,9 @@
-package org.example.producerConsumer.withSync;
+package org.example.producerConsumer.withSync.arrayBlockingQueue;
 
 import org.example.producerConsumer.Buffer;
 import org.example.producerConsumer.Consumer;
 import org.example.producerConsumer.Producer;
+import org.example.producerConsumer.withSync.arrayBlockingQueue.BlockingBuffer;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

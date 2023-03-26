@@ -17,7 +17,7 @@ public class Consumer implements  Runnable {
         int sum = 0;
         for (int count = 1 ; count <= 10 ; count++) {
             try {
-                Thread.sleep(generator.nextInt(300));
+               // Thread.sleep(generator.nextInt(300));
                 sum += sharedLocation.blockingGet();
                // System.out.printf("\t\t\t%2d%n", sum);
             } catch (InterruptedException e) {

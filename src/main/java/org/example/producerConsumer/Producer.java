@@ -19,7 +19,7 @@ public class Producer implements Runnable{
         int sum = 0;
         for (int count = 1; count <= 10; count++) {
             try {
-                Thread.sleep(generate.nextInt(3000));
+                //Thread.sleep(generate.nextInt(3000));
                 sharedLocation.blockingPut(count);
                 sum += count;
                 //System.out.printf("\t%2dn",sum);

@@ -1,10 +1,12 @@
-package org.example.producerConsumer.withSync;
+package org.example.producerConsumer.withSync.arrayBlockingQueue;
 
 import org.example.producerConsumer.Buffer;
 
 import java.util.concurrent.ArrayBlockingQueue;
 
 public class BlockingBuffer implements Buffer {
+
+
     private final ArrayBlockingQueue<Integer> buffer;
 
     public BlockingBuffer() {
